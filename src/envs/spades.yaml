@@ -1,0 +1,10 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - snakemake-minimal =5.2.4
+  - python =3.6
+  - bowtie2 ==2.3.5
+  - bwa ==0.7.17
+  - picard ==2.20.1
+  - spades ==3.13.1
