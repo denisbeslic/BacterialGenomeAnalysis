@@ -1,0 +1,11 @@
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - snakemake-minimal =5.2.4
+  - raxml = 8.2.12
+  - biopython = 1.73
+  - matplotlib = 3.1.1
+  - numpy = 1.16.4
+  - seaborn = 0.9.0
+  - argparse >= 1.0

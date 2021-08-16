@@ -1,0 +1,18 @@
+samples: "/Users/jamessullivan/Documents/snakemake_new2/samples.tsv"
+Results: "/Users/jamessullivan/Documents/snakemake_new2/results"
+
+#for prokka
+genus: "Escherichia"
+species: "coli"
+
+#for QUAST
+#fasta file
+reference: "/Users/jamessullivan/Documents/snakemake_new2/references/GCF_000005845.2_ASM584v2_genomic.fna"
+
+#for Roary
+#path for kraken db
+kraken: "/Users/jamessullivan/Downloads/minikraken_20171013_4GB"
+
+
+trimmomatic:
+          - "ILLUMINACLIP:adapters/TruSeq3-PE-2.fa:2:30:10:8:True"

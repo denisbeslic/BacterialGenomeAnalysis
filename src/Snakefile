@@ -1,0 +1,24 @@
+#Group Assignment
+#Author: James Sullivan and Denis Beslic
+import pandas as pd
+
+configfile: "config.yaml"
+
+samples = pd.read_csv(config["samples"], index_col="sample", delimiter='\t')
+
+if "Results" not in config:
+	config["Results"] = "results"
+
+
+include: "rules/QualityControl.smk"
+include: "rules/filtering.smk"
+include: "rules/GenomeAssembly.smk"
+include: "rules/GenomeAnnotation.smk"
+include: "rules/CoreGenomeBuilding.smk"
+include: "rules/PhylogenyTree.smk"
+
+print(list(samples.index))
+
+rule all:
+	input:
+		os.path.join(config['Results'],"roary_visualise.done")

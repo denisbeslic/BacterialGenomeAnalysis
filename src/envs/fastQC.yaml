@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snakemake-minimal =5.2.4
+  - fastQC =0.11.5
+  - multiqc =1.7
+  - quast = 5.0.2
+
