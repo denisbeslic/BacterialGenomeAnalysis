@@ -45,7 +45,7 @@ cut off the adapter in the config file.
 ILLUMINACLIP:adapters/TruSeq3-PE-2.fa:2:30:10:8:True
 ```
 
-### Spades
+### SPAdes
 Input : Reads with trimmed adaptors in Fastq format
 
 Output : FASTA file containing assembled contigs
