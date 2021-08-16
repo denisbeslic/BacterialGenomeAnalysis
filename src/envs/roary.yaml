@@ -1,6 +1,0 @@
-channels:
-  - bioconda
-  - conda-forge
-dependencies:
-  - snakemake-minimal =5.2.4
-  - roary = 3.12.0
