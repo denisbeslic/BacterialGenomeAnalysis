@@ -1,6 +1,8 @@
 # Bacterial Genome Analysis
 Automated user-friendly pipeline for whole bacterial genome analysis based on snakemake
 
+![grafik](https://user-images.githubusercontent.com/30258228/168625956-7e6bf88e-89c0-4c88-b23d-17ba7f35a8c9.png)
+
 ## Aim of the pipeline
 
 The aim of this project is to create an automated analysis workflow that is able to perform
